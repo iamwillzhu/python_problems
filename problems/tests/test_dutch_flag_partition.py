@@ -1,4 +1,4 @@
-from problems.array.dutch_flag_partition import dutch_flag_partition
+from problems.arrays.dutch_flag_partition import dutch_flag_partition
 from typing import List
 
 import pytest

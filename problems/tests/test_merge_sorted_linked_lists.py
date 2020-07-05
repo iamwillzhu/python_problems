@@ -1,5 +1,5 @@
 from problems.data_structures.list_node import ListNode
-from problems.linked_list.merge_sorted_linked_lists import merge_sorted_linked_lists
+from problems.linked_lists.merge_sorted_linked_lists import merge_sorted_linked_lists
 
 # TODO: this function isn't really used anywhere but could be helpful somewhere in the future
 def is_linked_list_sorted(linked_list) -> bool:

@@ -1,4 +1,4 @@
-from problems.array.next_permutation import next_permutation
+from problems.arrays.next_permutation import next_permutation
 
 class TestNextPermutation:
     def test_no_next_permutation(self) -> None:

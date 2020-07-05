@@ -1,4 +1,4 @@
-from problems.array.buy_and_sell_stock_twice import buy_and_sell_stock_twice
+from problems.arrays.buy_and_sell_stock_twice import buy_and_sell_stock_twice
 import pytest
 
 class TestBuyAndSellStockTwice:

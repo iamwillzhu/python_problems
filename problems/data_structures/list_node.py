@@ -7,11 +7,10 @@ class ListNode:
     data: int = 0
     next: Optional[ListNode] = None
 
-    def __str__(self):
+    def __str__(self) -> str:
         current_node: Optional[ListNode] = self
-        values: List[str] = [str(current_node.data)]
+        values: List[str] = [] 
         
-        current_node = current_node.next
         while current_node is not None:
             values.append(str(current_node.data))
             current_node = current_node.next

@@ -1,5 +1,5 @@
 from problems.data_structures.list_node import ListNode
-from problems.linked_list.remove_duplicates import remove_duplicates
+from problems.linked_lists.remove_duplicates import remove_duplicates
 
 class TestRemoveDuplicates:
     def test_remove_duplicates(self) -> None:
